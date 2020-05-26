@@ -1,6 +1,6 @@
 {application, app3,
  [{description, "An OTP application"},
-  {vsn, "0.1.0"},
+  {vsn, semver},
   {registered, []},
   {mod, {app3_app, []}},
   {applications,
